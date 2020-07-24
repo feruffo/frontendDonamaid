@@ -64,17 +64,17 @@ export default function SignUp() {
       <img src={logo} alt="Donamaid" />
 
       <Form schema={schema} onSubmit={handleSubmit}>
-        <Input name="name" placeholder="Nome Completo" />
+        <Input name="name" placeholder="Nome completo" />
         <Input name="email" type="email" placeholder="Seu e-mail" />
         <Input name="cpf" type="text" placeholder="Seu CPF" />
 
         <Input name="street" placeholder="Seu endereço" />
         <Input name="number" placeholder="Seu número" />
-        <Input name="complement" placeholder="complemento" />
+        <Input name="complement" placeholder="Complemento" />
         <Input name="zipcode" placeholder="Seu CEP" />
         <Input name="city" placeholder="Sua cidade" />
         <Input name="state" placeholder="Seu estado" />
-        <Input name="country" placeholder="Seu País" />
+        <Input name="country" placeholder="Seu país" />
 
         <Input name="password" type="password" placeholder="Sua senha" />
         <button type="submit">Criar Conta</button>
